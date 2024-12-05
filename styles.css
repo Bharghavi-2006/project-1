@@ -47,14 +47,6 @@
     justify-content: space-between;
     gap: 20px;
   }
-  @media (max-width: 375px) {
-    .introductory.content {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        gap: 20px;
-    }
-  }
   .image-1 {
     display: flex;
     flex-direction: column;
@@ -71,15 +63,7 @@
     justify-content: space-evenly;
     gap: 20px;
   }
-  
-  @media (max-width: 375px) {
-    .heading {
-        display: flex;
-        flex-direction: vertical;
-        justify-content: space-evenly;
-        gap: 20px;
-    }
-  }
+
   .heading h1 {
     flex-shrink: 2;
     font-size: 50px;
@@ -105,7 +89,7 @@
     border-radius: 5px;
   }
 
-  .paragraph.and.button button:active {
+  .paragraph.and.button button:hover {
     background-color: black;
     color: white
   }
@@ -148,15 +132,6 @@
     padding: 40px;
   }
 
-  @media (max-width: 375px) {
-    .news.articles{
-        display: grid;
-        grid-template-rows: repeat(3, 1fr);
-        gap: 20px;
-        padding: 40px;
-    }
-  }
-  
   .news.articles article {
     display: flex;
     justify-content: space-evenly;
@@ -166,18 +141,6 @@
     overflow: hidden;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  @media (max-width: 375px) {
-     .news.articles article {
-        display: flex;
-        justify-content: space-evenly;
-        gap: 20px;
-        background-color:hsl(36, 100%, 99%);
-        border-radius: 10px;
-        padding: 20px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-     }
   }
   
   .news.articles article h1 {
